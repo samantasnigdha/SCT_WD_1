@@ -19,3 +19,5 @@ An interactive navigation menu that changes color or style when scrolled or when
 
   
 ![image alt](https://github.com/snigdha-samanta/SCT_WD_1/blob/e5d5d95dae4ed94f28ca4e2d4bde7949875965e3/Screenshot%202025-02-15%20195756.png?raw=true)
+
+![image alt](https://github.com/snigdha-samanta/SCT_WD_1/blob/e5d5d95dae4ed94f28ca4e2d4bde7949875965e3/Screenshot%202025-02-15%20195844.png?raw=true)
