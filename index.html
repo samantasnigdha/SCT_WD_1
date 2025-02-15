@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+
+        <header>
+            <nav>
+                <div class="logo">The Green Pulse</div>
+                <div class="items">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home" class="section">
+            <div class="head-content">
+                <h1>Nature is the art of God.</h1>
+            </div>
+        </section>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>Nature is a vast, interconnected web of life that provides all the resources necessary for the survival of living beings. From the towering trees of lush forests to the deep blue oceans and clear skies above, nature's beauty is both awe-inspiring and humbling. It is a constant reminder of the planet's intricate balance and the vital role it plays in supporting life. In this essay, we will explore the importance of nature, its benefits, and how we can protect it for future generations.</p>
+        <p>The diversity of nature is truly remarkable. Whether it's the variety of plants, animals, ecosystems, or landscapes, nature offers a unique experience for everyone who takes the time to appreciate it. Forests provide shelter for countless species of plants and animals, while mountains serve as awe-inspiring natural wonders. Oceans teem with life, from the smallest plankton to the largest whales, while deserts showcase the resilience of life in the harshest conditions.
+            Not only does nature offer a visual feast, but it also nourishes us in ways we often take for granted. Fresh air, clean water, and fertile soil are all products of nature's ability to renew and sustain life. The beauty of nature's diversity is not just in its visual appeal, but in the life it sustains and the resources it provides.</p>
+        <p>Beyond its aesthetic and recreational value, nature is essential for the survival of all living organisms. Plants and trees produce the oxygen we breathe, while the earth's ecosystems filter water and recycle nutrients. Nature also plays a crucial role in regulating the climate, providing us with the right conditions to thrive.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <h3>Get in touch to know more.</h>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            let navbar = document.querySelector('nav');
+            if (window.pageYOffset > 50) {  
+                navbar.classList.add('sticky');
+            } else {
+                navbar.classList.remove('sticky');
+            }
+        });
+    </script>
+</body>
+</html>
+   
+
+
+
+
+
